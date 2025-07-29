@@ -19,7 +19,8 @@ Este projeto permite ao utilizador gerar uma equipa Pokémon personalizada com b
 
 🚀 Como correr o projeto
 
-streamlit run PokeDream.py
+streamlit run PokeDream.py ou python -m streamlit run PokeDream.py
+
 
 A aplicação abrirá automaticamente no navegador:
 👉 http://localhost:8501

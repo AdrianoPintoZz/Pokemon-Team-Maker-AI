@@ -46,7 +46,8 @@ if pokemon_fixo.empty:
     st.error(f"O Pokémon evoluído '{evolucao_inicial.title()}' não foi encontrado para a geração {geracao_escolhida}.")
     st.stop()
 
-df = df[df["Name"] != evolucao_inicial]
+iniciais_excluidos = {nome.strip().lower() for nome in iniciais.values()} - {evolucao_inicial}
+df = df[~df["Name"].isin(iniciais_excluidos)]
 
 
 tipos_disponiveis = pd.unique(df[['Type 1', 'Type 2']].values.ravel('K'))

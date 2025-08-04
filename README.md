@@ -1,4 +1,4 @@
-🔮 PokeDream – Gerador de Equipas Pokémon com Streamlit e IA básica
+🔮 PokeDream – Gerador de Equipas Pokémon com Streamlit 
 
 Este projeto permite ao utilizador gerar uma equipa Pokémon personalizada com base nas suas preferências, utilizando dados reais de todas as gerações (1 a 6) e uma interface simples via Streamlit.
 
